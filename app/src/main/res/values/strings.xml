@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sistema da Empresa</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="emp_name">Contains</string>
+    <string name="emp_slogan">Sistema de gerenciamento</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Lista de empregados</string>
+    <string name="lbl_nome_dep">Nome do departamento</string>
+    <string name="lbl_local_dep">Local</string>
+    <string name="lbl_nome_emp">Nome do empregado</string>
+    <string name="lbl_cargo">Cargo</string>
+    <string name="lbl_chefe_emp">Chefe</string>
+    <string name="lbl_dataadm_emp">Data de Admissão</string>
+    <string name="lbl_sal_emp">Salário</string>
+    <string name="lbl_com">Comissão</string>
+    <string name="lbl_dep_emp">Departamento</string>
+    <string name="txt_novo_nome_dep">Nome do Departamento</string>
+    <string name="txt_novo_local_dep">Local</string>
+    <string name="btn_salvar">Salvar</string>
+</resources>
