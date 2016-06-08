@@ -86,6 +86,8 @@ public class MainActivity extends AppCompatActivity
             ListarDepartamentoFragment listarDepartamentoFragment = new ListarDepartamentoFragment();
             replaceFragment(listarDepartamentoFragment);
         } else if (id == R.id.nav_cadDepartamento) {
+            NovoDepartamentoFragment novoDepartamentoFragment = new NovoDepartamentoFragment();
+            replaceFragment(novoDepartamentoFragment);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

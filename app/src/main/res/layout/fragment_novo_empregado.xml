@@ -1,13 +1,40 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.edu.hto.ifsp.Aplicativo_SistemaEmpresas.fragment.NovoEmpregadoFragment">
+    tools:context="br.edu.hto.ifsp.Aplicativo_SistemaEmpresas.fragment.NovoEmpregadoFragment"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_nomedep"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content">
 
-</FrameLayout>
+        <EditText
+            android:id="@+id/edit_nomedep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Departamento"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/text_input_localdep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_localdep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Local do Departamento"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_salvar"
+        android:id="@+id/btn_salvar"
+        android:layout_gravity="left|center_vertical"
+        android:clickable="true"/>
+
+</LinearLayout>
